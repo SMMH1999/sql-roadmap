@@ -22,3 +22,4 @@ Each folder contains:
 - `notes.md` – Concept summaries
 - `exercises.md` – Practice questions
 - `solutions.sql` – My solutions
+

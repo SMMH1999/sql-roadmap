@@ -1,0 +1,203 @@
+00 — Setup (Environment Setup)
+	00.1 – Installing Required Tools
+		Install PostgreSQL
+		Install DataGrip
+		Verify PostgreSQL service
+		Verify DataGrip connection
+	00.2 – Project Initialization
+		Create GitHub Repository
+		Clone via GitHub Desktop
+		Create folder structure
+	00.3 – Database Initialization
+		Create database sql_roadmap
+		Create schema retail
+		Create test tables
+		Write first SQL queries
+		Push setup files to GitHub
+01 — SQL Basics
+	01.1 – Introduction to Relational Databases
+		What is RDBMS
+		Tables, Rows, Columns
+		Primary Keys & Foreign Keys
+		Relationships (1–1, 1–M, M–M)
+	01.2 – SQL Syntax
+		SQL Statement structure
+		Keywords
+		Case sensitivity
+		Identifiers
+	01.3 – Data Types in PostgreSQL
+		Numeric types
+		Character types
+		Boolean
+		Date & Time
+		JSON types
+		Special types
+	01.4 – Basic SELECT
+		SELECT basic
+		Selecting multiple columns
+		Aliases
+		DISTINCT
+	01.5 – Filtering with WHERE
+		Basic conditions
+		Comparison operators
+		Logical operators (AND, OR, NOT)
+		IN, BETWEEN, LIKE
+		NULL handling (IS NULL / IS NOT NULL)
+	01.6 – Sorting with ORDER BY
+		ASC / DESC
+		Sorting by multiple columns
+	01.7 – LIMIT & OFFSET
+		Pagination
+		Top-N queries
+	01.8 – INSERT
+		Insert single row
+		Insert multiple rows
+		Insert from SELECT
+	01.9 – UPDATE
+		Update with WHERE
+		Update multiple rows
+	01.10 – DELETE
+		Delete with WHERE
+		Truncate vs Delete
+02 — Intermediate SQL
+	02.1 – JOINs
+		INNER JOIN
+		LEFT JOIN
+		RIGHT JOIN
+		FULL JOIN
+		CROSS JOIN
+		USING & ON
+	02.2 – GROUP BY
+		Basic grouping
+		Aggregations
+		GROUP BY multiple columns
+	02.3 – Aggregate Functions
+		COUNT, SUM, AVG
+		MIN, MAX
+		COUNT DISTINCT
+	02.4 – HAVING Clause
+		Filtering grouped results
+	02.5 – Subqueries
+		Scalar subqueries
+		Table subqueries
+		EXISTS / NOT EXISTS
+		IN / NOT IN with subqueries
+	02.6 – CASE Expressions
+		Simple CASE
+		Searched CASE
+	02.7 – Working with NULL
+		COALESCE
+		NULLIF
+		IS NULL patterns
+	02.8 – Aliasing & Readability
+		Table aliases
+		Column aliases
+		Query formatting best practices
+03 — Advanced SQL
+	03.1 – CTEs
+		Basic WITH
+		Multiple CTEs
+		Recursive CTEs
+	03.2 – Window Functions
+		OVER()
+		PARTITION BY
+		ORDER BY
+		ROW_NUMBER(), RANK(), DENSE_RANK()
+		Moving averages
+		Running totals
+	03.3 – Advanced Aggregation
+		GROUPING SETS
+		ROLLUP
+		CUBE
+	03.4 – String Functions
+		CONCAT
+		SUBSTRING
+		LOWER, UPPER
+		TRIM
+		LENGTH
+	03.5 – Date & Time Functions
+		NOW(), CURRENT_DATE
+		INTERVAL
+		DATE_TRUNC
+		AGE
+		Extracting year/month/day
+	03.6 – JSON in PostgreSQL
+		JSON & JSONB differences
+		→ operators
+		Extracting JSON attributes
+		Filtering JSON
+04 — Expert SQL
+	04.1 – Indexing
+		B-Tree indexing
+		Hash index
+		Partial index
+		Index-only scans
+		Composite indexes
+		Performance implications
+	04.2 – Query Execution Plans
+		EXPLAIN
+		EXPLAIN ANALYZE
+		Reading execution plan nodes
+	04.3 – Query Optimization
+		Common optimization patterns
+		Avoiding subquery pitfalls
+		Join order selection
+		Eliminating unnecessary sorts
+	04.4 – Transactions
+		BEGIN, COMMIT, ROLLBACK
+		Savepoints
+	04.5 – ACID Fundamentals
+		Atomicity
+		Consistency
+		Isolation
+		Durability
+	04.6 – Isolation Levels
+		Read Uncommitted
+		Read Committed
+		Repeatable Read
+		Serializable
+	04.7 – Materialized Views
+		Creating MVs
+		Refresh modes
+		Using MV for analytics
+05 — Final Project: Retail Customer & Sales Analytics
+	05.1 – Business Understanding
+		Define KPIs
+		Define stakeholders
+		Define analysis goals
+	05.2 – Data Model
+		Tables design
+		Entity relationships
+		Normalization
+	05.3 – Dataset Creation
+		customers
+		products
+		categories
+		orders
+		order_items
+		payments
+		regions
+	05.4 – Data Loading
+		CSV import
+		Insert scripts
+		Data validation
+	05.5 – Analytical Queries
+		Sales trends
+		Top products
+		Customer lifetime value
+		Segmentation
+		Order frequency
+		Basket analysis (association rules)
+	05.6 – RFM Segmentation
+		Recency
+		Frequency
+		Monetary
+		Customer segments
+	05.7 – Cohort Analysis
+		Monthly cohorts
+		Retention rate calculation
+	05.8 – Final Deliverables
+		analysis.sql
+		documentation.md
+		dashboard suggestions (optional)
+		presentation for interview
