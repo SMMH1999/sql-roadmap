@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/c09babc1-e588-45f3-9c5f-599abcfa39ae/postgres-console.sql" value="c09babc1-e588-45f3-9c5f-599abcfa39ae" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/c09babc1-e588-45f3-9c5f-599abcfa39ae/sql-rodmap-console.sql" value="c09babc1-e588-45f3-9c5f-599abcfa39ae" />
+  </component>
+</project>
